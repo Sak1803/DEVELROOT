@@ -1,0 +1,1037 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Encabezado */
+.img_header {
+    background: rgb(57, 131, 35);
+    background: linear-gradient(0deg, rgb(65, 143, 41) 21%, #337ca8 76%, #337ca8 96%);
+    -webkit-background-clip:
+        text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.logotitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    height: 100px;
+    border: none;
+    padding: 0 115px;
+    box-shadow: 0 12px 5px rgba(200, 200, 200, 0.5);
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    position: sticky;
+    z-index: 1;
+}
+
+.btn_header {
+    font-size: 15px;
+    background-color: #e8eef5;
+    color: #15579e;
+    border: none;
+    padding: 10px 80px;
+    border-radius: 8px;
+}
+
+.burger {
+    display: none;
+}
+
+/* Contenido */
+
+.container {}
+
+.section_1 {
+    background-color: #f7f9fc;
+}
+
+.contenido-inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    padding-bottom: 40%;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+.text_resp_tlfn{
+    display: none;
+}
+
+#cohete {
+    width: 20%;
+    height: 20%;
+    margin-left: 60px;
+}
+
+.section_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #15579e;
+    color: white;
+    padding: 40px;
+    width: auto;
+
+}
+
+
+.CONTENEDOR {
+    background-color: white;
+    margin: 6%;
+    padding: 5% 5%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: -32%;
+    box-shadow: 5px 5px 3px rgb(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+}
+
+.formdivider {
+    margin-bottom: 40px;
+}
+
+.textdeform {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#textoform {
+    width: 40%;
+    color: #363636;
+    border-color: #15579E;
+    border-width: 2px;
+}
+
+.formulario {
+    border-color: #15579E;
+    width: 52%;
+    color: #363636;
+    border-width: 3px;
+    font-size: 1.585vw;
+    font-weight: bold;
+}
+
+
+.botonform {
+    font-weight: 500;
+    font-size: 1.165vw;
+    padding: 3% 25%;
+    background-image: linear-gradient(90deg, #15599D, #00C850);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    align-self: center;
+
+}
+
+#texto1 {
+    font-size: 2.646vw;
+    background-image: linear-gradient(90deg, #15599D, #00C850);
+    background-clip: text;
+    color: transparent;
+    margin: 0px;
+}
+
+#texto2 {
+    margin-top: -4px;
+    font-size: 1.795vw;
+    font-weight: bold;
+    color: #363636;
+}
+
+#texto3 {
+    font-size: 1.589vw;
+}
+
+#email {
+    margin-top: 8px;
+    border-style: solid;
+    height: 45px;
+    width: 90%;
+    border-radius: 8px;
+    border-color: #ebebeb;
+    font-size: 1.062vw;
+    padding: 0.2em 0.5em;
+}
+
+#mensaje {
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    height: 62px;
+    width: 90%;
+    border-radius: 8px;
+    border-color: #ebebeb;
+    font-size: 1.062vw;
+    padding: 1em 0.5em;
+    resize: none;
+}
+
+.ContBOTON {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*SECCION AZUL*/
+.frase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.circle {
+    background: #2b67a7;
+    border-radius: 50%;
+    width: 30%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    color: white;
+    margin: 0% auto;
+}
+
+.CIRCULES_AND_ARROWS {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0% 5%;
+}
+
+.circle_and_slogan {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 8%;
+    margin: 0% -20%;
+}
+
+.eslogans {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.eslogan_1,
+.eslogan_2,
+.eslogan_3 {
+    max-width: 250px;
+    text-align: center;
+}
+
+
+.TITLE {
+    line-height: 25px;
+
+}
+
+.flecha {
+    width: 15%;
+
+}
+
+.flechab {
+    width: 8%;
+
+}
+
+.section_3 {
+    display: grid;
+    background-color: #F7F9FC;
+    padding-top: 15%;
+    padding-bottom: 8%;
+}
+
+.Titulo,
+.TituloGod {
+    background: linear-gradient(266deg, rgba(58, 198, 30, 1) 25%, rgba(62, 217, 14, 1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.subtitulo {
+    display: flex;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.PALAIZQUIERDA {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 17%;
+}
+
+.CONTAINER_LIST {
+    display: flex;
+    padding: 0% 10%;
+    align-items: center;
+
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+    float: left;
+    padding-right: 50px;
+    object-fit: contain;
+}
+
+.testo {
+    font-size: 19.5px;
+}
+
+#coheterober {
+    height: 70%;
+}
+
+.PALCENTRO {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 6% 0%;
+}
+
+.subtitulo1 {
+    margin: 2% 0%;
+    font-size: 3.173vw;
+    color: black;
+}
+
+.testo2 {
+    font-weight: normal;
+    font-size: 1.484vw;
+    color: #363636;
+}
+
+.CONTENEDOR_EXPERTOS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.BOX {
+    margin: 30px;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 6px 6px 5px rgba(123, 123, 123, 0.5);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 35px;
+}
+
+.BOX:nth-child(2) {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+.IMAGE {
+    height: 110px;
+
+}
+
+.TITULO-EXPERTOS {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.testo3 {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+
+.section_4 {
+    background-color: white;
+}
+
+.CONT {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.BOX_ {
+    margin: 20px;
+    height: 350px;
+    width: 300px;
+    background-color: #f7f9fc;
+    box-shadow: 6px 6px 5px rgba(123, 123, 123, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.resena {
+    padding: 31px;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 32px;
+    color: black;
+}
+
+.Pieresena {
+    padding: 31px;
+    font-size: 15px;
+    font-weight: bolder;
+    height: 20%;
+}
+
+
+.section_5 {
+    background-color: #f7f9fc;
+
+}
+
+.CONTAINER-COHETE {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 76%;
+    aspect-ratio: 7 / 2;
+    background-color: #00CA4E;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 5px 5px 3px rgb(0, 0, 0, 0.4);
+}
+
+.testofinal {
+    display: grid;
+    width: 70%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+
+}
+
+.Cohete {
+    width: 30%;
+    margin-top: -10%;
+}
+
+.GREEN-ROKKET {
+    height: 400px;
+    width: 300px;
+    object-fit: contain;
+}
+
+.BOTONFINAL {
+    background-color: #3FD779;
+    justify-self: start;
+    width: 33%;
+    aspect-ratio: 11 / 2;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 1.062vw;
+    color: white;
+    margin-top: -2%;
+}
+
+.FINALDIV {
+    display: grid;
+    justify-items: center;
+    padding: 28% 0%;
+}
+
+.TESTOFINAL {
+    font-size: 3.173vw;
+    margin-top: -1%;
+    margin-right: 2%;
+}
+
+.TITULOFINAL {
+    font-size: 28px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    min-height: 220px;
+
+    color: #e0e0e0;
+    background-color: #363636;
+}
+
+.ICON {
+    height: 25px;
+    width: auto;
+    padding: 20px;
+
+}
+
+#CONTIMG {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 25%;
+    margin-top: 15px;
+}
+
+#CONTPIE {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+#CONTLIST {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+}
+
+#LISTA {
+    width: 100%;
+}
+
+.ICONO {
+    height: 20px;
+    width: 25px;
+    float: left;
+    margin-right: 15px;
+    object-fit: contain;
+
+}
+
+.item {
+    list-style-type: none;
+    margin-bottom: 25px;
+}
+@media (max-width: 1024px){
+    .section_3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .EXPERTOSBOB{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .btn_header {
+        font-size: 10px;
+    }
+
+    .header {
+        font-size: 20px;
+        height: 80px;
+        padding: 0 40px;
+    }
+
+    .section_1 {
+        padding: 150px 0;
+    }
+
+    
+    .contenido-inicio {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        margin: 0 50px;
+        padding-top: 5%;
+        padding-bottom: 50%;
+    }
+
+    h6 {
+        margin: 0 15px;
+        font-size: 35px !important;
+    }
+
+    #cohete {
+        margin-left: auto;
+    }
+
+    .CIRCULES_AND_ARROWS {
+        flex-direction: column;
+    }
+
+    .flecha,
+    .flechab {
+        transform: rotate(90deg);
+    }
+
+    .flecha {
+        width: 165px;
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+
+    .flechab {
+        margin-top: 22px;
+        width: 120px;
+        margin-bottom: 22px;
+
+    }
+
+    .CONTENEDOR {
+        display: grid;
+        justify-items: center;
+        margin: 10%;
+        margin-top: -75%;
+    }
+
+    #texto1 {
+        font-size: 4.2vw;
+        text-align: center;
+    }
+
+    #texto2 {
+        margin-top: 4px;
+        font-size: 2.2vw;
+        text-align: center;
+    }
+
+    #texto3 {
+        font-size: 2.8vw;
+        line-height: 140%;
+    }
+
+    #textoform {
+        width: 80%;
+    }
+
+    .formulario {
+        margin-top: 6%;
+        width: 80%;
+        font-size: 3vw;
+    }
+
+    #email {
+        font-size: 2vw;
+        line-height: 140%;
+    }
+
+    #mensaje {
+        font-size: 2vw;
+        line-height: 140%;
+    }
+
+    .botonform {
+        font-size: 2.1vw;
+        padding: 3% 45%;
+    }
+
+    .Titulo {
+        font-size: 14px;
+
+    }
+
+    .subtitulo {
+        font-size: 30px;
+
+    }
+
+    .CONTAINER_LIST {
+        display: grid;
+        padding: 0% 8%;
+        margin: 7%;
+        justify-items: center;
+    }
+
+    .CONTENEDOR_EXPERTOS {
+        display: grid;
+        padding: 0% 15%;
+    }
+
+    .GREEN-ROKKET {
+        height: 100px;
+        width: 140px;
+        object-fit: contain;
+    }
+
+
+
+    .FINALDIV {
+        display: grid;
+        justify-items: center;
+        padding: 28% 0%;
+    }
+
+    .BOTONFINAL {
+        width: 55%;
+        aspect-ratio: 19 / 4;
+        border-radius: 5px;
+        border-style: none;
+        font-size: 2.5vw;
+        color: white;
+        margin-top: -2%;
+    }
+
+    .TESTOFINAL {
+        font-size: 3.3vw;
+        line-height: 120%;
+        letter-spacing: 1.5px;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .TITULOFINAL {
+        font-size: 2.8vw;
+        margin-bottom: -3%;
+    }
+
+
+    .footer {
+        display: grid;
+        grid-template-rows: 100px 50px 100px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+        padding-top: 20px;
+    }
+
+    #CONTIMG,
+    #CONTLIST {
+        width: 100%;
+        order: 1;
+    }
+
+    #CONTLIST {
+        margin-top: 110px;
+        width: 80%;
+    }
+
+    #CONTPIE {
+        width: 100%;
+        grid-column: span 3;
+        grid-row: 3;
+        order: 2;
+        margin-bottom: 15px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .CONT {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .burger {
+        display: initial;
+        width: 50px;
+        height: 50px;
+    }
+
+        .text_resp_tlfn {
+            display: initial;
+        }
+    
+        .text_resp_pc {
+            display: none;
+        }
+
+    .contenido-inicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5%;
+        padding-bottom: 50%;
+        padding: 5% 0 50% 0;
+
+    }
+
+    .contenido-inicio>h6 {
+        font-size: 30px !important;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    #cohete {
+        margin: 0;
+        width: 150px;
+        height: 150px;
+    }
+
+
+
+    .CONTAINER_LIST {
+        padding: 0;
+        margin: 0;
+    }
+
+    .CONTENEDOR {
+        width: calc(100% - -55px);
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+
+    .botonform {
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .formdivider {
+        margin-bottom: 10px;
+    }
+
+    #email {
+        height: 30px;
+        margin-bottom: 20px;
+    }
+
+    #mensaje {
+        margin-bottom: 20px;
+    }
+
+    #texto3 {
+        font-size: 4.8vw;
+    }
+
+    #texto1{
+        font-size: 7.2vw;
+    }
+
+    #texto {
+        font-size: 14px;
+    }
+
+    #mensaje,
+    .textdeform,
+    #texto2 {
+        font-size: 12px;
+    }
+
+    #coheterober {
+        width: 320px;
+        height: 240px;
+    }
+
+    .frasegod {
+        font-size: 20px !important;
+    }
+
+    .Titulo {
+        padding-right: 30px;
+        font-size: 12px;
+    }
+
+    .TituloGod {
+        font-size: 12px;
+    }
+
+    .subtitulo {
+        font-size: 15px;
+        margin-right: 5px;
+    }
+
+    .flecha,
+    .flechab {
+        margin: 70px 0;
+    }
+
+    .PALAIZQUIERDA {
+        display: grid;
+        width: 70%;
+        padding: 0;
+    }
+
+    .section_3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .CONTAINER_LIST>ul {
+        padding: 0 5px;
+        margin: 5px 0;
+    }
+
+    .CONTENEDOR_EXPERTOS {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .BOX {
+        width: 200px;
+        height: 250px;
+    }
+
+    .IMAGE {
+        width: 80px;
+        height: 90px;
+        object-fit: contain;
+    }
+
+    .TITULO-EXPERTOS {
+        font-size: 20px;
+    }
+
+    .testo3 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .img_header,
+    .btn_header,
+    .GREEN-ROKKET,
+    #coheterober {
+        display: none;
+    }
+
+    .item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 40px;
+        margin: 0;
+    }
+
+    .testo {
+        font-size: 18px;
+    }
+
+    .icon {
+        height: 45px;
+        width: 45px;
+        padding: 0;
+        padding-right: 15px;
+    }
+
+    .Cohete {
+        width: 0;
+    }
+
+    .CONTAINER-COHETE {
+        width: 280px;
+        height: 220px;
+    }
+
+    .PALCENTRO {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        padding: 0 30px;
+    }
+
+    .testo2 {
+        font-size: 18px;
+    }
+
+    .section_3 {
+        padding-bottom: 140px;
+    }
+
+    .subtitulo1 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .BOX_ {
+        width: 275px;
+        height: 350px;
+    }
+
+    .testofinal {
+        width: 80%;
+        padding: 0;
+    }
+
+    .TITULOFINAL {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .TESTOFINAL {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .BOTONFINAL {
+        width: 80%;
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .BOTONFINAL::before {
+        content: "Get a free quote";
+    }
+
+    .BOTONFINAL span {
+        display: none;
+    }
+
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #CONTLIST {
+        margin: 0;
+    }
+
+    #TextoPie {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+
+    #LISTA {
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+}
